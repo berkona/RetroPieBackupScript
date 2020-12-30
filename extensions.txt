@@ -1,0 +1,7 @@
+*.srm
+*.sav
+*.stat*
+*.fs
+*.nv
+*.bsv
+*.rtc
