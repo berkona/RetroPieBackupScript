@@ -1,0 +1,4 @@
+retroarch.cfg
+emulators.cfg
+runcommand.cfg
+videomodes.cfg

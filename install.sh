@@ -9,9 +9,9 @@ echo "Linking to dropbox account."
 
 echo "Linking to retropie menu"
 cd $INSTALL_DIR
+rm  -rf /home/pi/RetroPie/retropiemenu/Backup/
 mkdir -p /home/pi/RetroPie/retropiemenu/Backup
-rm /home/pi/RetroPie/retropiemenu/Backup/SyncWithDropbox.sh
 ln -s $INSTALL_DIR/sync-saves.sh /home/pi/RetroPie/retropiemenu/Backup/Sync_Saves_With_Dropbox.sh
-
+ln -s $INSTALL_DIR/sync-config.sh /home/pi/RetroPie/retropiemenu/Backup/Sync_Config_With_Dropbox.sh
 echo "Done."
 
