@@ -3,14 +3,18 @@
 # --==RetroPie Saves Dropbox Syncing Script==--
 
 # Configuration
+
+# Where script was installed to
 INSTALL_DIR="$HOME/RetroPieBackupScript"
+# Where roms are kept in system
 ROMS_DIR="$HOME/RetroPie/roms"
 # A directory to use as scratch space
-BACKUP_DIR="$HOME/BackupScript"
+BACKUP_DIR="/tmp/BackupScript"
 # where dropbox-uploader was cloned to
 DROPBOX_UPLOADER_PATH="$HOME/Dropbox-Uploader"
 # Name of uploaded archive of all saves in Dropbox
 SAVE_ARCHIVE_FILE="RetroPie_Save_Backup.tar.gz"
+# what file to use for filter for save files
 EXTENSIONS_FILE="$INSTALL_DIR/extensions.txt"
 
 # derived variables
