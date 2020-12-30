@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # --==RetroPie Saves Dropbox Syncing Script==--
 
 # Configuration
